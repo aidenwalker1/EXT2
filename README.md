@@ -1,13 +1,13 @@
-# Lab5 and remainder of project
+EXT2 File System
 
-## Requirements:
-- Add your names to this file.
-- Ensure your code can be ran with a `mk` script. 
-- include a working diskimage in your submission.
+Working EXT2 file system which can work with files, such as writing and reading, and directories, like mkdir. Uses a console interface, with command names the same as they are in linux.
 
-## Details:
-- All final project submissions (plus lab 5) will be done in this repo. Submit Level one, two and three here on their respective due dates.
-    - We will clone them at the normal submission time. 
-- Demo will be a litte different, join the zoom call and be prepared to share your screen and run your code. 
-- Sign up (individuals AND partners) at this google sheet link.
-    - https://docs.google.com/spreadsheets/d/1o9dmssR8BraUcmZtVOr6mB-EMh0CrjGIfY1i6y4K0qQ/edit?usp=sharing
+To run:
+
+Run mkdisk to create an empty disk which can be mounted to, which outputs a file called vdisk.
+
+Compile files with compiler of your choice (cmake, etc)
+
+Run main with either no arguments to run a disk named vdisk, or provide the file name as the first argument
+
+Type 'quit' to exit program
